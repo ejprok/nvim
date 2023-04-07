@@ -1,4 +1,4 @@
---[[ init.lua ]]
+ --[[ init.lua ]]
 
 -- LEADER
 -- These keybindings need to be defined before the first /
@@ -9,5 +9,7 @@ vim.g.localleader = "\\"
 -- IMPORTS
 require('vars')      -- Variables
 require('opts')      -- Options
+require('plugins')
+require('remap')
 -- require('keys')      -- Keymaps
 -- require('plug')      -- Plugins
