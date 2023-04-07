@@ -13,3 +13,10 @@ require('plugins')
 require('remap')
 -- require('keys')      -- Keymaps
 -- require('plug')      -- Plugins
+require('telescope').setup{
+    defaults = {
+        file_ignore_patterns = {
+            "node_modules"
+        }
+    }
+}
