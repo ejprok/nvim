@@ -11,6 +11,7 @@ require('vars')      -- Variables
 require('opts')      -- Options
 require('plugins')
 require('remap')
+require('lsp')
 -- require('keys')      -- Keymaps
 -- require('plug')      -- Plugins
 require('telescope').setup{
